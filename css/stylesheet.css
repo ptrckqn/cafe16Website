@@ -48,6 +48,7 @@ backface-visibility: hidden;
 
 .pic{
   padding: 0.5%;
+  cursor: pointer;
 }
 
 .middle {
@@ -79,14 +80,10 @@ body{
   background-position: center;
   font-family: Montserrat;
   color: white;
-  padding: 8%;
-  margin-left: 7%
-  margin-right: 7%
+  padding-top: 5%;
+  position: relative;
 }
 
-.content{
-  margin: 8%
-}
 
 html{
   height: 100%;
@@ -97,8 +94,31 @@ html{
   background-color: black;
 }
 
+.bodyOdd{
+  background-color: #ffffff;
+  width: 100vw;
+  padding: 50px;
+  padding-left: 15%;
+  padding-right: 15%
+}
+
+.bodyEven{
+  background-color: #f9f9f9;
+  width: 100vw;
+  padding: 50px;
+  padding-left: 15%;
+  padding-right: 15%
+}
+
 hr{
-  width: 400px;
+  width: 50%;
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer{
+  background-color: #4e4e4e;
+  color: white;
+  text-align: center;
+  padding: 0.5%;
 }
