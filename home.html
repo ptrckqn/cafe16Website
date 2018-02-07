@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="css/stylesheet.css">
   </head>
 
-  <body data-spy="scroll" data-target="myNavbar">
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
           <a href="#" class="navbar-brand"><img src="assets/icon.svg" width="30" height="30" alt=""> Cafe 16</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="nav navbar-nav ml-auto">
+        <div class="collapse navbar-collapse">
+          <div class="nav navbar-nav ml-auto smooth-scroll" id="navbarNavAltMarkup">
             <a href="#about" class="nav-item nav-link">About</a>
             <a href="#pics" class="nav-item nav-link">Gallery</a>
             <a href="#boba" class="nav-item nav-link">Boba</a>
@@ -64,10 +64,11 @@
       <hr>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 pic">
-          <img src="assets/gallery/thaiShavedIce.jpg" class="img-fluid">
+          <img src="assets/gallery/thaiShavedIce.jpg" class="img-fluid" data-toggle="modal" data-target="#pic1">
           <div class="middle">Thai shaved ice
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6 col-sm-12 pic">
           <img src="assets/gallery/taroCoconut.jpg" class="img-fluid">
           <div class="middle">Taro coconut milk tea
@@ -140,8 +141,10 @@
   </div>
 
 
+
+
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
-    <script   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="   crossorigin="anonymous"></script>
+    <script   src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
