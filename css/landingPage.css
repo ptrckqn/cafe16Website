@@ -12,12 +12,11 @@ body{
   padding: 5%;
 }
 
-.navbar-brand{
-  font-weight: 600;
-}
 
 html{
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar-dark{
@@ -27,6 +26,7 @@ html{
 #landingIcon{
   padding-left: 8%;
 }
+
 #content{
   text-align: center;
   padding-top: 10%;
@@ -37,11 +37,7 @@ html{
 }
 
 hr{
-  width: 400px;
+  width: 40%;
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.navbar-dark .navbar-nav .nav-link{
-  color: white;
 }
