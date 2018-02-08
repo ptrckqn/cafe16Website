@@ -83,6 +83,9 @@ body{
   position: relative;
 }
 
+.aboutText{
+  text-align: justify;
+}
 
 html{
   max-width: 100%;
