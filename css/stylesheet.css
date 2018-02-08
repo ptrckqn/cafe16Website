@@ -8,6 +8,7 @@
 
 .navbar-brand{
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 #navbarNavAltMarkup .active{
@@ -60,6 +61,7 @@ backface-visibility: hidden;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  text-transform: lowercase;
 }
 
 .lastRow{
@@ -132,4 +134,12 @@ hr{
 .seasonal{
   background-color: #f8f8f8;
   padding: 6%;
+}
+
+.seasonal p{
+  text-transform: lowercase;
+}
+
+.seasonal h3{
+  padding-bottom: 1%;
 }

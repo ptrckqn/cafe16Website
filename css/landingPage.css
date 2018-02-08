@@ -1,6 +1,9 @@
 h1{
   font-weight: 700;
-  font-size: 5em;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-top: 5%;
 }
 
 body{
@@ -32,7 +35,7 @@ html{
 }
 
 #landingIcon{
-  padding-left: 8%;
+  padding-left: 6%;
 }
 
 #content{
