@@ -48,7 +48,6 @@ backface-visibility: hidden;
 
 .pic{
   padding: 0.5%;
-  cursor: pointer;
 }
 
 .middle {
@@ -125,4 +124,9 @@ hr{
   color: white;
   text-align: center;
   padding: 0.5%;
+}
+
+.seasonal{
+  background-color: #f8f8f8;
+  padding: 6%;
 }
