@@ -19,6 +19,12 @@ html{
   overflow-x: hidden;
 }
 
+.btn-light{
+  background-color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
 .navbar-dark{
   background-color: #4e4e4e;
 }
