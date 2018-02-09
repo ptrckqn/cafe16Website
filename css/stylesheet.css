@@ -1,18 +1,49 @@
-.navbar-dark{
-  background-color: #4e4e4e;
+a{
+  color: #5b5b5b;
+}
+a:hover{
+  color: rgba(0, 0, 0, 0.75);
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.aboutText{
+  text-align: justify;
+}
+
+body{
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  font-family: Montserrat;
   color: white;
+  padding-top: 5%;
+  position: relative;
 }
 
-.navbar-brand{
-  font-weight: 600;
-  text-transform: uppercase;
+.bodyEven{
+  background-color: #f9f9f9;
+  width: 100vw;
+  padding: 50px;
+  padding-left: 15%;
+  padding-right: 15%
 }
 
-#navbarNavAltMarkup .active{
-  color: rgba(255, 255, 255, 0.75);
+.bodyOdd{
+  background-color: #ffffff;
+  width: 100vw;
+  padding: 50px;
+  padding-left: 15%;
+  padding-right: 15%
+}
+
+.brandIcon{
+  margin-bottom: 10px;
+}
+
+.footer{
+  background-color: #4e4e4e;
+  color: white;
+  text-align: center;
+  padding: 0.5%;
 }
 
 h1{
@@ -29,15 +60,15 @@ h3{
   font-size: 1.5em;
 }
 
-p{
-  color: #5b5b5b;
+hr{
+  width: 50%;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-a{
-  color: #5b5b5b;
-}
-a:hover{
-  color: rgba(0, 0, 0, 0.75);
+html{
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .img-fluid{
@@ -47,8 +78,13 @@ transition: .3s ease;
 backface-visibility: hidden;
 }
 
-.pic{
+.lastRow{
+  margin-bottom: 20px;
+}
+
+.menuBorder{
   padding: 0.5%;
+  background-color: black;
 }
 
 .middle {
@@ -64,71 +100,38 @@ backface-visibility: hidden;
   text-transform: lowercase;
 }
 
-.lastRow{
-  margin-bottom: 20px;
+.navbar-brand{
+  font-weight: 600;
+  text-transform: uppercase;
 }
+
+.navbar-dark{
+  background-color: #4e4e4e;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+
+#navbarNavAltMarkup .active{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+p{
+  color: #5b5b5b;
+}
+
+.pic{
+  padding: 0.5%;
+}
+
+
 .pic:hover .img-fluid {
   opacity: 0.5;
 }
 
 .pic:hover .middle {
   opacity: 1;
-}
-
-body{
-  background-color: #ffffff;
-  background-size: cover;
-  background-position: center;
-  font-family: Montserrat;
-  color: white;
-  padding-top: 5%;
-  position: relative;
-}
-
-.aboutText{
-  text-align: justify;
-}
-
-html{
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-.brandIcon{
-  margin-bottom: 10px;
-}
-.menuBorder{
-  padding: 0.5%;
-  background-color: black;
-}
-
-.bodyOdd{
-  background-color: #ffffff;
-  width: 100vw;
-  padding: 50px;
-  padding-left: 15%;
-  padding-right: 15%
-}
-
-.bodyEven{
-  background-color: #f9f9f9;
-  width: 100vw;
-  padding: 50px;
-  padding-left: 15%;
-  padding-right: 15%
-}
-
-hr{
-  width: 50%;
-  border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.footer{
-  background-color: #4e4e4e;
-  color: white;
-  text-align: center;
-  padding: 0.5%;
 }
 
 .seasonal{
