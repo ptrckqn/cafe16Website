@@ -76,6 +76,7 @@ opacity: 1;
 display: block;
 transition: .3s ease;
 backface-visibility: hidden;
+cursor: pointer;
 }
 
 .lastRow{
@@ -123,6 +124,10 @@ p{
 
 .pic{
   padding: 0.5%;
+}
+
+.container .pic{
+  cursor: default;
 }
 
 
