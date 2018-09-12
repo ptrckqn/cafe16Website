@@ -1,10 +1,10 @@
-@media (max-width: 812px){
+@media only screen and (max-width: 1125px){
 
   .blankLeft, .secondBlankLeft{
     display: none;
   }
 
-  .hidden{
+  #hidden{
     display: none;
   }
   main{
@@ -13,7 +13,7 @@
   }
 }
 
-@media (min-width: 813px){
+@media (min-width: 1226px){
   main{
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(6, 1fr);
