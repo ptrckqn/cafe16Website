@@ -4,12 +4,28 @@
     display: none;
   }
 
+
+
   #hidden{
     display: none;
   }
+
   main{
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: 50vh 50vh 50vh 50vh 50vh 100vh 100vh 50vh 100vh 100vh;
+  }
+
+  .mainContent{
+    height: 50vh;
+    position: relative;
+  }
+
+  main .drinksRight{
+    height: 100vh;
+  }
+
+  main .foodRight{
+    height: 100vh;
   }
 }
 
@@ -17,6 +33,11 @@
   main{
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(6, 1fr);
+  }
+
+  .mainContent{
+    height: 100vh;
+    position: relative;
   }
 }
 
@@ -71,10 +92,6 @@ button{
 
 .foodLeft div, .galleryLeft div{
   color:#f9f9f9;
-}
-
-.foodLeftFixed{
-
 }
 
 footer{
@@ -174,11 +191,6 @@ main .fixed{
   top: 0;
   bottom: 0;
   width: 50vw;
-}
-
-.mainContent{
-  height: 100vh;
-  position: relative;
 }
 
 .mainNav{
