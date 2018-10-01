@@ -52,7 +52,7 @@ $(document).ready(function() {
 });
 
 
-if($(window).width() > 1125){
+if($(window).width() > 999){
 	$(window).on("resize scroll", function(){
 		if($('.blankLeft').visible(true) && !$('.foodRight').visible(true)){
 			$('.drinksLeftFixed').removeAttr('id');

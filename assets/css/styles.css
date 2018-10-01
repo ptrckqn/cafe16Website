@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1125px){
+@media only screen and (max-width: 1000px){
 
   .blankLeft, .secondBlankLeft{
     display: none;
@@ -29,7 +29,7 @@
   }
 }
 
-@media (min-width: 1226px){
+@media (min-width: 1001px){
   main{
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(6, 1fr);
