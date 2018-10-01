@@ -12,7 +12,7 @@
 
   main{
     grid-template-columns: 1fr;
-    grid-template-rows: 75vh 75vh 75vh 75vh 75vh 100vh 100vh 50vh 100vh 100vh;
+    grid-template-rows: 50vh 50vh 50vh 50vh 50vh 100vh 100vh 50vh 100vh 100vh;
   }
 
   .mainContent{
