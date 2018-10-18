@@ -84,6 +84,10 @@ button{
   margin-right: 3%;
 }
 
+#drinkMenuBackground{
+  background-color: black;
+}
+
 .foodLeft, .galleryLeft{
   background-color: #f9f9f9;
   color:#4e4e4e;
@@ -92,6 +96,10 @@ button{
 
 .foodLeft div, .galleryLeft div{
   color:#f9f9f9;
+}
+
+#foodMenuBackground{
+  background-color: black;
 }
 
 footer{
