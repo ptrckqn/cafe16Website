@@ -26,20 +26,24 @@ $(document).ready(function() {
 
 	// Initialize date values
 	dtNow = new Date();
-	dtOpen = new Date(dtNow.getFullYear(), dtNow.getMonth(), dtNow.getDate(), 12);
-	dtCloseWD = new Date(dtNow.getFullYear(), dtNow.getMonth(), dtNow.getDate(), 23);
+	dtOpenMonThu = new Date(dtNow.getFullYear(), dtNow.getMonth(), dtNow.getDate(), 14); //2pm
+	dtOpenWN = new Date(dtNow.getFullYear(), dtNow.getMonth(), dtNow.getDate(), 11) //11am
+	dtCloseWD = new Date(dtNow.getFullYear(), dtNow.getMonth(), dtNow.getDate(), 23); //11pm
 	dtCloseFriSat = new Date(dtNow.getFullYear(), dtNow.getMonth(), dtNow.getDate(), 24);
 	// Determine day and calculate isOpen
 	switch (dtNow.getDay()) {
 
 		case 5:
-		isOpen = (dtNow.getTime() > dtOpen.getTime() && dtNow.getTime() < dtCloseFriSat.getTime());
+		isOpen = (dtNow.getTime() > dtOpenWN.getTime() && dtNow.getTime() < dtCloseFriSat.getTime());
 		break;
 		case 6:
-		isOpen = (dtNow.getTime() > dtOpen.getTime() && dtNow.getTime() < dtCloseFriSat.getTime());
+		isOpen = (dtNow.getTime() > dtOpenWN.getTime() && dtNow.getTime() < dtCloseFriSat.getTime());
+		break;
+		case 7:
+		isOpen = (dtNow.getTime() > dtOpenWN.getTime() && dtNow.getTime() < dtCloseWD.getTime());
 		break;
 		default:
-		isOpen = (dtNow.getTime() > dtOpen.getTime() && dtNow.getTime() < dtCloseWD.getTime());
+		isOpen = (dtNow.getTime() > dtOpenMonThu.getTime() && dtNow.getTime() < dtCloseWD.getTime());
 	}
 
 	if (isOpen){
