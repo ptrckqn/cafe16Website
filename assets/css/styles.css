@@ -117,6 +117,7 @@ footer p{
   max-width: 100%;
   max-height: 100vh;
   object-fit: cover;
+  background: #F1F1FA;
 }
 
 h1{
